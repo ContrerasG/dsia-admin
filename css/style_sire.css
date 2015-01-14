@@ -1,0 +1,200 @@
+﻿/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;  
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar {
+	height: 90px;
+}
+.navbar-default {
+	background-color: #005dab;
+	border-color: #e7e7e7;
+}
+.navbar-nav {
+	padding: 20px 20px 0 10px;
+	background-color: #005dab;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #ccc;
+	background: none;
+	border-bottom: 2px solid #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #eee;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #e7e7e7;
+	background: none;
+}
+
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 25px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+/* Jumbotron */
+.jumbotron {
+	padding: 68px 0;
+	margin-bottom: 0px;
+}
+.jumbotron img {
+	margin: 20px 0 20px 0;
+}
+.jumbotron h1, h2 , p{
+	color: #555;
+}
+.jumbotron .login {
+	background-color: #e4e4e4;
+	padding-bottom: 20px;
+}
+.jumbotron .message { 
+	padding-right: 55px;
+}
+
+/* Jumbotron Twitter */
+.twitter {
+	margin-top: 90px; 
+}
+.twitter img { 	
+	float:left;
+	padding-right: 30px;
+}
+.twitter p{
+	color: #fff;		
+	font-size: 1.7em;
+}
+
+.footer {
+	margin-top: 40px;
+}
+
+.footer p { 
+	color: #005dab;
+}
+
+
+.footer .glyphicon:before {
+	padding-right: 15px; 
+} 
+
+.glyphicon {
+	font-size: 15px; 
+} 
+
+/* .glyphicon */ 
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding-right: 5px;
+}
+
+.nav .glyphicon {
+	padding-right: 10px;
+}
+
+
+.red  { 
+	color: red;
+}
+
+#getting-started {
+	color: #868686;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Mensajes / Alertas*/
+.bg-info {
+    padding: 10px 40px; 
+    border-radius: 25px;
+	background-color: #d9edf7;
+}
+
+/* DASHBOARD */
+.dashboard {
+	margin-top: 10px;
+}
+.dashboard span.glyphicon {
+	font-size: 15px;
+}
+
+.dashboard h4 {
+	color: #005dab;
+}
+/* Útils / Específicas */
+.border-left {
+	border-left: 1px solid grey;
+	padding-left: 10px;
+}
+
+.grey {
+	background-color: #eee;
+	padding: 20px;
+}
+table .collapse.in {
+	display:table-row;
+}
+/* Media Querys */
+@media (min-width: 959px) and (max-width: 1199px) {
+	.jumbotron .login {		
+		border: 1px solid red;
+		padding: 10px 20px 20px 20px;
+	}
+}
+

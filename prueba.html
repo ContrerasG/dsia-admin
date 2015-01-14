@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>html demo</title>
+  <style>
+  .red {
+    color: red;
+  }
+  </style>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<span>Hello</span>
+<div></div>
+<div id="dni"></div>
+<div>3</div>
+ 
+<script>
+
+var message="<span class='red'>";
+var div_data = "Hello <b>Again div id dni </b></span>"; 
+var res = message.concat(div_data); /* Función para concatenar message  div_data */
+$( "#dni" ).html(res);
+</script>
+ 
+</body>
+</html>

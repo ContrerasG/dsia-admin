@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquery.countdown.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body {
+			background-color: #428bca;
+		}
+	</style>
+  </head>
+  
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="img-responsive" src="img/logo_ula.png">
+		  </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#contact">Contactos</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Factulades <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--<ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+			<div class="login col-md-4 col-md-push-8">
+				<form class="form-signin" role="form">
+					<h2 class="form-signin-heading"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Datos de ingreso</h2>
+					<label for="inputEmail" >Carrera</label>
+					<select class="form-control">
+					  <option>Ingeniería de Sistemas</option>
+					  <option>Ingeniería Civil</option>
+					</select>
+					<label for="inputEmail">Cédula</label>
+					<input type="text" id="inputCi" class="form-control" placeholder="V-00000000" required autofocus>
+					<label for="inputPassword" >Contraseña</label>
+					<input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+					<div class="checkbox">
+					  <label>
+						<!--<input type="checkbox" value="remember-me">--> (*) Todos los campos son obligatorios
+					  </label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit"><span class="boton glyphicon glyphicon-lock" aria-hidden="true"></span>Iniciar sesión</button>
+				  </form>
+			</div>
+			<div class="message col-md-8 col-md-pull-4">				  
+				  <!--<img class="img-responsive" src="img/responsive.png">-->
+				<h1>SIRE - Ingeniería</h1>
+				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique. </p>
+				<p>Próxima inscripción: <em><span id="getting-started"></span></em></p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Más información &raquo;</a></p>
+			</div>
+			
+      </div>
+    </div>
+	<section class="twitter">
+		<div class="container">
+			<p><img class="" src="img/Twitter_logo_white.png">Descarga los listados de las secciones desde la A hasta la Z http://t.co/asE4x </p>
+			<p class="text-left">- Síguenos en <em>@ore_faces</em></p>
+		</div>
+    </Section>	   
+	
+	<footer class="footer">
+		<p class="text-center">&copy; Universidad de Los Andes 2014</p>
+    </footer>
+    <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script type="text/javascript">
+		  $('#getting-started').countdown('2014/12/01', function(event) {
+			$(this).html(event.strftime('%w semana %d días %H:%M:%S'));
+		  });
+	</script>
+  </body>
+</html>
